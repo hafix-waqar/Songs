@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4785EF891F62FEEF003BEEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EF881F62FEEF003BEEF5 /* AppDelegate.swift */; };
-		4785EF8B1F62FEEF003BEEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EF8A1F62FEEF003BEEF5 /* ViewController.swift */; };
+		4785EF8B1F62FEEF003BEEF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EF8A1F62FEEF003BEEF5 /* HomeViewController.swift */; };
 		4785EF8E1F62FEEF003BEEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4785EF8C1F62FEEF003BEEF5 /* Main.storyboard */; };
 		4785EF911F62FEF0003BEEF5 /* Songs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4785EF8F1F62FEF0003BEEF5 /* Songs.xcdatamodeld */; };
 		4785EF931F62FEF0003BEEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4785EF921F62FEF0003BEEF5 /* Assets.xcassets */; };
 		4785EF961F62FEF2003BEEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4785EF941F62FEF2003BEEF5 /* LaunchScreen.storyboard */; };
 		4785EFA11F62FEF6003BEEF5 /* SongsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EFA01F62FEF6003BEEF5 /* SongsTests.swift */; };
 		4785EFAC1F62FEF6003BEEF5 /* SongsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EFAB1F62FEF6003BEEF5 /* SongsUITests.swift */; };
+		4785EFBB1F631569003BEEF5 /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EFBA1F631569003BEEF5 /* FileSystem.swift */; };
+		4785EFBD1F632113003BEEF5 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EFBC1F632113003BEEF5 /* SongsViewController.swift */; };
+		4785EFBF1F6354A9003BEEF5 /* CustomSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EFBE1F6354A9003BEEF5 /* CustomSongsViewController.swift */; };
+		4785EFC11F63754B003BEEF5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EFC01F63754B003BEEF5 /* UIColor.swift */; };
+		4785EFC41F63B3D3003BEEF5 /* MP3PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785EFC31F63B3D2003BEEF5 /* MP3PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* Begin PBXFileReference section */
 		4785EF851F62FEEE003BEEF5 /* Songs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Songs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4785EF881F62FEEF003BEEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4785EF8A1F62FEEF003BEEF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4785EF8A1F62FEEF003BEEF5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4785EF8D1F62FEEF003BEEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4785EF901F62FEF0003BEEF5 /* Songs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Songs.xcdatamodel; sourceTree = "<group>"; };
 		4785EF921F62FEF0003BEEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		4785EFA71F62FEF6003BEEF5 /* SongsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4785EFAB1F62FEF6003BEEF5 /* SongsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsUITests.swift; sourceTree = "<group>"; };
 		4785EFAD1F62FEF7003BEEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4785EFBA1F631569003BEEF5 /* FileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
+		4785EFBC1F632113003BEEF5 /* SongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
+		4785EFBE1F6354A9003BEEF5 /* CustomSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSongsViewController.swift; sourceTree = "<group>"; };
+		4785EFC01F63754B003BEEF5 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		4785EFC31F63B3D2003BEEF5 /* MP3PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MP3PlayerViewController.swift; path = Assets.xcassets/MP3PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				4785EF881F62FEEF003BEEF5 /* AppDelegate.swift */,
-				4785EF8A1F62FEEF003BEEF5 /* ViewController.swift */,
+				4785EF8A1F62FEEF003BEEF5 /* HomeViewController.swift */,
+				4785EFBC1F632113003BEEF5 /* SongsViewController.swift */,
+				4785EFBE1F6354A9003BEEF5 /* CustomSongsViewController.swift */,
+				4785EFC31F63B3D2003BEEF5 /* MP3PlayerViewController.swift */,
+				4785EFBA1F631569003BEEF5 /* FileSystem.swift */,
 				4785EF8C1F62FEEF003BEEF5 /* Main.storyboard */,
-				4785EF921F62FEF0003BEEF5 /* Assets.xcassets */,
-				4785EF941F62FEF2003BEEF5 /* LaunchScreen.storyboard */,
-				4785EF971F62FEF3003BEEF5 /* Info.plist */,
-				4785EF8F1F62FEF0003BEEF5 /* Songs.xcdatamodeld */,
+				4785EFC21F63755C003BEEF5 /* Extensions */,
+				4785EFB91F62FFB2003BEEF5 /* Supporting Files */,
 			);
 			path = Songs;
 			sourceTree = "<group>";
@@ -126,6 +138,25 @@
 				4785EFAD1F62FEF7003BEEF5 /* Info.plist */,
 			);
 			path = SongsUITests;
+			sourceTree = "<group>";
+		};
+		4785EFB91F62FFB2003BEEF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4785EF921F62FEF0003BEEF5 /* Assets.xcassets */,
+				4785EF941F62FEF2003BEEF5 /* LaunchScreen.storyboard */,
+				4785EF971F62FEF3003BEEF5 /* Info.plist */,
+				4785EF8F1F62FEF0003BEEF5 /* Songs.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4785EFC21F63755C003BEEF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4785EFC01F63754B003BEEF5 /* UIColor.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4785EF8B1F62FEEF003BEEF5 /* ViewController.swift in Sources */,
+				4785EFC41F63B3D3003BEEF5 /* MP3PlayerViewController.swift in Sources */,
+				4785EF8B1F62FEEF003BEEF5 /* HomeViewController.swift in Sources */,
+				4785EFC11F63754B003BEEF5 /* UIColor.swift in Sources */,
+				4785EFBB1F631569003BEEF5 /* FileSystem.swift in Sources */,
+				4785EFBF1F6354A9003BEEF5 /* CustomSongsViewController.swift in Sources */,
+				4785EFBD1F632113003BEEF5 /* SongsViewController.swift in Sources */,
 				4785EF911F62FEF0003BEEF5 /* Songs.xcdatamodeld in Sources */,
 				4785EF891F62FEEF003BEEF5 /* AppDelegate.swift in Sources */,
 			);
